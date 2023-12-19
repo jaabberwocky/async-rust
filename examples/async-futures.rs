@@ -1,5 +1,4 @@
 use futures::future::Future;
-use std::thread;
 
 fn foo2() -> impl Future<Output = i32> {
     async {
